@@ -1,6 +1,7 @@
 package main
 
 import (
+	"demoAPI/article"
 	"demoAPI/db"
 	"demoAPI/user"
 	"fmt"
@@ -14,6 +15,7 @@ func handleRequest() {
 	myRouter := mux.NewRouter()
 
 	user.RegistRouter(myRouter)
+	article.RegistRouter(myRouter)
 
 	log.Fatal(http.ListenAndServe(":10000", myRouter))
 }
