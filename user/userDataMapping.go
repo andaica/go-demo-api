@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/andaica/go-demo-api/db"
+	"go-demo-api/db"
 
 	_ "github.com/go-sql-driver/mysql"
 )

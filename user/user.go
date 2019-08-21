@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/andaica/go-demo-api/authen"
+	"go-demo-api/authen"
 
 	"github.com/gorilla/mux"
 )

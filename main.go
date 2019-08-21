@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/andaica/go-demo-api/article"
-	"github.com/andaica/go-demo-api/db"
-	"github.com/andaica/go-demo-api/user"
+	"go-demo-api/article"
+	"go-demo-api/db"
+	"go-demo-api/user"
 
 	"github.com/gorilla/mux"
 )
