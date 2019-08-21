@@ -7,7 +7,7 @@ demo project api management users and articles with go, mux, jwt
 * [github.com/dgrijalva/jwt-go](https://github.com/dgrijalva/jwt-go)
 
 ## Installation
-- Clone project into folder $GO_HOME/src/demoAPI
+- Clone project into anywhere (thanks to go modules)
 - Import file demoAPI.sql to mysql
 - Edit configuration mysql in db.go
 
