@@ -1,11 +1,12 @@
 package article
 
 import (
-	"demoAPI/authen"
 	"encoding/json"
 	"io/ioutil"
 	"log"
 	"net/http"
+
+	"github.com/andaica/go-demo-api/authen"
 
 	"github.com/gorilla/mux"
 )

@@ -1,12 +1,13 @@
 package main
 
 import (
-	"demoAPI/article"
-	"demoAPI/db"
-	"demoAPI/user"
 	"fmt"
 	"log"
 	"net/http"
+
+	"github.com/andaica/go-demo-api/article"
+	"github.com/andaica/go-demo-api/db"
+	"github.com/andaica/go-demo-api/user"
 
 	"github.com/gorilla/mux"
 )

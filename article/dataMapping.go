@@ -2,9 +2,10 @@ package article
 
 import (
 	"database/sql"
-	"demoAPI/db"
 	"fmt"
 	"strconv"
+
+	"github.com/andaica/go-demo-api/db"
 
 	_ "github.com/go-sql-driver/mysql"
 )

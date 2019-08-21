@@ -1,12 +1,13 @@
 package user
 
 import (
-	"demoAPI/authen"
 	"encoding/json"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"reflect"
+
+	"github.com/andaica/go-demo-api/authen"
 
 	"github.com/gorilla/mux"
 )

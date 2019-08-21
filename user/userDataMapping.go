@@ -1,9 +1,10 @@
 package user
 
 import (
-	"demoAPI/db"
 	"fmt"
 	"strconv"
+
+	"github.com/andaica/go-demo-api/db"
 
 	_ "github.com/go-sql-driver/mysql"
 )
